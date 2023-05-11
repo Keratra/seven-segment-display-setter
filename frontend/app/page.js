@@ -71,7 +71,7 @@ export default function Home() {
 	return (
 		<main className='flex min-h-screen flex-col items-center justify-start p-12 '>
 			<h2>History</h2>
-			<div className='px-4 py-2 m-2 mb-12 text-2xl bg-white shadow-md rounded-md font-["Consolas"]'>
+			<div className='px-4 py-2 m-2 mb-12 text-2xl bg-white text-black shadow-md rounded-md font-["Consolas"]'>
 				{value}
 			</div>
 			<div className='max-w-[20rem] grid grid-cols-3 place-items-center p-2 w-full'>
@@ -160,7 +160,7 @@ export default function Home() {
 			</div>
 
 			<h2 className='mt-12'>Result</h2>
-			<div className='px-4 py-2 m-2 text-2xl bg-white shadow-md rounded-md font-["Consolas"]'>
+			<div className='px-4 py-2 m-2 text-2xl bg-white text-black shadow-md rounded-md font-["Consolas"]'>
 				0b
 				{Object.keys(values)
 					.map((key) => values[key])
